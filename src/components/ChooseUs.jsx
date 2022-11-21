@@ -9,7 +9,7 @@ const ChooseUs = () => {
                 <div className="flex flex-col justify-center items-center text-center md:items-start md:text-left">
                     <h1 className="md:text-4xl sm:text-3xl text-2xl font-bold py-2">Why Choose Us ?</h1>
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptates totam reprehenderit ducimus aliquid harum ipsa quos molestiae, commodi quas! Quis, culpa nulla. Error, quasi expedita recusandae officia minus ea itaque.</p>
-                    <button className="bg-black text-white font-medium px-4 py-2 my-4 rounded-md hover:bg-gray-900">View projects</button>
+                    <button className="bg-black text-white font-medium px-4 py-2 my-4 rounded-md hover:bg-[#242124]">View projects</button>
                 </div>
             </div>            
         </div>
