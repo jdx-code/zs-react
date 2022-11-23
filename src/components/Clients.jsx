@@ -4,7 +4,7 @@ import Nhidcl from '../assets/nhidcl.jpg';
 
 const Clients = () => {
     return(
-        <div className="w-full bg-white border-2 border-green-500 py-8">
+        <div className="w-full bg-white">
             <div className="flex flex-col justify-center items-center">
                 <h1 className="py-2 mb-12 text-2xl font-bold md:text-3xl">Some of our clients</h1>
                 <div className="flex flex-wrap justify-center">

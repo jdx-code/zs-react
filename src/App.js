@@ -10,10 +10,10 @@ function App() {
     <div>
       <Navbar/>  
       <Hero/>
-      <ChooseUs/>
-      <Clients/>      
+      <ChooseUs/>  
+      <Clients/>          
       <Offers/>
-      <Techstacks/>
+      <Techstacks/>      
     </div>
   );
 }
