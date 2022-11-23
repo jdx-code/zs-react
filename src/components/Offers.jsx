@@ -2,7 +2,7 @@ import React from "react";
 
 const Offers = () => {
     return (
-        <div className="flex flex-col justify-center items-center bg-white text-gray-800 py-24">
+        <div className="flex flex-col justify-center items-center bg-white text-gray-800 pt-24">
             <h1 className="text-2xl text-center font-bold md:text-3xl">What we offer ?</h1>
             <div className="w-full max-w-[1200px] flex flex-col justify-center items-center m-8 md:flex-row md:flex-wrap">
                 <div className="w-[280px] h-[300px] border-2 border-gray-700 rounded-lg m-12 px-12 py-8 flex flex-col justify-center items-center">
