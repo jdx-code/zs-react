@@ -1,10 +1,8 @@
 import React from 'react';
-
+import FirstInteraction from '../assets/handshake-deal-svgrepo-com.svg';
 import EvaluationScope from '../assets/graph-svgrepo-com.svg';
 import DevTesting from '../assets/code-svgrepo-com.svg';
 import LaunchSupport from '../assets/support-svgrepo-com.svg';
-import FrontOfCard from './FrontOfCard';
-import BackOfCard from './BackOfCard';
 
 const OurProcess = () => {
     return(
@@ -15,12 +13,10 @@ const OurProcess = () => {
                     <p>Clarity, transparency, and integrity are among the core values of our team at Catware. As such, we don’t just “work on projects”. We bring our experience and expertise to every stage of the development lifecycle. You will have a reliable IT partner with Catware.</p>
                 </div>                
                 <div className='grid md:grid-cols-4 w-full gap-8'>
-                    <div className='relative w-full rounded-2xl shadow-2xl text-white overflow-hidden cursor-pointer transition-all duration-1000 card'>
-                        <FrontOfCard/>
-                        <BackOfCard/>
-                    </div>
-                    
-                    
+                    <div className='w-full bg-green-100 p-8 text-center rounded-xl shadow-2xl'>
+                        <img className='w-24 mx-auto' src={FirstInteraction}/>
+                        <p>First Interaction</p>
+                    </div>                                       
                     <div className='w-full bg-green-100 p-8 text-center rounded-xl shadow-2xl'>
                         <img className='w-24 mx-auto' src={EvaluationScope}/>
                         <p>Evaluation and scope</p>
