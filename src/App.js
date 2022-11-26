@@ -12,10 +12,10 @@ function App() {
     <div>
       <Navbar/>  
       <Hero/>
-      <ChooseUs/>  
-      <Clients/>          
+      <ChooseUs/>                 
       <Offers/>
       <OurProcess/>
+      <Clients/> 
       <Techstacks/>      
     </div>
   );
