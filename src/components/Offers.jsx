@@ -8,14 +8,14 @@ import ITStuffSVG from '../assets/it-stuff.svg'
 
 const Offers = () => {
     return (
-        <div className="w-full bg-white text-black border-2 border-blue-500 py-12">
-            <div className='flex flex-col justify-center items-center px-4 md:px-24 text-gray-800'>
+        <div className="w-full bg-white text-[#2c0f37] border-2 border-blue-500 py-12">
+            <div className='flex flex-col justify-center items-center px-4 md:px-24'>
 
-                <div className="mx-2 px-2 text-center md:mx-16 md:px-24">
-                    <h1 className="text-lg m-1 px-6 py-1 text-center font-bold sm:text-2xl md:text-4xl md:m-6">What we offer ?</h1>
+                <div className="mx-auto px-2 text-center md:px-24">                
+                    <h1 className="text-lg m-1 px-6 py-1 text-center font-bold sm:text-2xl md:text-3xl md:m-6">What we offer ?</h1>
                 </div>            
                 
-                <div className="w-full grid md:grid-cols-6 justify-items-center gap-8 mt-8 mb-8">                
+                <div className="w-full grid lg:grid-cols-6 justify-items-center gap-8 mt-8 mb-8">                
                     <OfferCard 
                         src={MobileSVG}
                         heading="Mobile Development" 
