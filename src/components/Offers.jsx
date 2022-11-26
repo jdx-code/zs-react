@@ -12,29 +12,29 @@ const Offers = () => {
             <div className='flex flex-col justify-center items-center px-4 md:px-24'>
 
                 <div className="mx-auto px-2 text-center md:px-24">                
-                    <h1 className="text-lg m-1 px-6 py-1 text-center font-bold sm:text-2xl md:text-3xl md:m-6">What we offer ?</h1>
+                    <h1 className="text-[1.8rem] font-black m-1 px-6 py-1 text-center sm:text-text-[2rem] md:text-text-[2.2rem] md:m-6">What we offer ?</h1>
                 </div>            
                 
                 <div className="w-full grid lg:grid-cols-6 justify-items-center gap-8 mt-8 mb-8">                
                     <OfferCard 
                         src={MobileSVG}
                         heading="Mobile Development" 
-                        firstPara="Tailor-made Mobile Applications"
-                        secondPara="Boost your business to the next level with our mobile development team."
+                        firstPara="Tailor-made Mobile Apps"
+                        secondPara="Boost your business with our mobile development team."
                     ></OfferCard>
                           
                     <OfferCard 
                         src={WebSVG}
                         heading="Web Development" 
-                        firstPara="Scalable, efficient web apps"
-                        secondPara="Our web applications are reliable, efficient and regardless of the budget - made for easy scaling."
+                        firstPara="Tailor-made Mobile Apps"
+                        secondPara="Boost your business with our mobile development team."
                     ></OfferCard>
 
                     <OfferCard 
                         src={ProductSVG}
                         heading="Product Engineering" 
-                        firstPara="They will love your products."
-                        secondPara="We use the best practices in UI as well as UX of digital products which lead to beautiful and intuitive interfaces."
+                        firstPara="Tailor-made Mobile Apps"
+                        secondPara="Boost your business with our mobile development team."
                     ></OfferCard>
                     
                     <div></div>
@@ -42,15 +42,15 @@ const Offers = () => {
                     <OfferCard 
                         src={ITStuffSVG}
                         heading="IT Services" 
-                        firstPara="Experts ready to work."
-                        secondPara="Try our Website/SaaS Hosting, Remote IT outsourcing and Maintenance Support."
+                        firstPara="Tailor-made Mobile Apps"
+                        secondPara="Boost your business with our mobile development team."
                     ></OfferCard>
 
                     <OfferCard 
                         src={CloudSVG}
                         heading="Cloud Services" 
-                        firstPara="For us, sky is not the limit."
-                        secondPara="Efficient and flexible cloud based solutions for your data driven applications."
+                        firstPara="Tailor-made Mobile Apps"
+                        secondPara="Boost your business with our mobile development team."
                     ></OfferCard>
 
                     <div></div>
