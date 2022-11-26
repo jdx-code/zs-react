@@ -3,6 +3,7 @@ import FirstInteraction from '../assets/handshake-deal-svgrepo-com.svg';
 import EvaluationScope from '../assets/graph-svgrepo-com.svg';
 import DevTesting from '../assets/code-svgrepo-com.svg';
 import LaunchSupport from '../assets/support-svgrepo-com.svg';
+import ProcessCard from './ProcessCard';
 
 const OurProcess = () => {
     return(
@@ -13,22 +14,29 @@ const OurProcess = () => {
                     <p className='text-sm px-2 md:text-base md:m-6'>Clarity, transparency, and integrity are among the core values of our team at Catware. As such, we don’t just “work on projects”. We bring our experience and expertise to every stage of the development lifecycle. You will have a reliable IT partner with Catware.</p>
                 </div>                
                 <div className='w-full grid md:grid-cols-4 justify-items-center gap-8 mt-8 mb-8'>
-                    <div className='w-full max-w-[85%] bg-pink-100 border-2 border-pink-200 p-12 text-center rounded-lg shadow-xl md:max-w-[99%]'>
-                        <img className='w-24 mx-auto' src={FirstInteraction}/>
-                        <p>First Interaction</p>
-                    </div>                                       
-                    <div className='w-full max-w-[85%] bg-pink-100 border-2 border-pink-200 p-12 text-center rounded-lg shadow-xl md:max-w-[99%]'>
-                        <img className='w-24 mx-auto' src={EvaluationScope}/>
-                        <p>Evaluation and scope</p>
-                    </div>
-                    <div className='w-full max-w-[85%] bg-pink-100 border-2 border-pink-200 p-12 text-center rounded-lg shadow-xl md:max-w-[99%]'>
-                        <img className='w-24 mx-auto' src={DevTesting}/>
-                        <p>Development and testing</p>
-                    </div>
-                    <div className='w-full max-w-[85%] bg-pink-100 border-2 border-pink-200 p-12 text-center rounded-lg shadow-xl md:max-w-[99%]'>
-                        <img className='w-24 mx-auto' src={LaunchSupport}/>
-                        <p>Post-launch support</p>
-                    </div>
+                    <ProcessCard 
+                        src={FirstInteraction} 
+                        para="First Interaction"
+                    >
+                    </ProcessCard>
+
+                    <ProcessCard
+                        src={EvaluationScope}
+                        para="Evaluation and Scope"
+                    >
+                    </ProcessCard>
+
+                    <ProcessCard
+                        src={DevTesting}
+                        para="Development and Testing"
+                    >
+                    </ProcessCard>
+
+                    <ProcessCard
+                        src={LaunchSupport}
+                        para="Post-launch support"
+                    >
+                    </ProcessCard>                    
                 </div>
             </div>            
         </div>
