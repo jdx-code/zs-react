@@ -1,5 +1,10 @@
 import React from "react";
 import OfferCard from './OfferCard';
+import MobileSVG from '../assets/mobile.svg'
+import WebSVG from '../assets/coding.svg'
+import CloudSVG from '../assets/cloud.svg'
+import ProductSVG from '../assets/layers.svg'
+import ITStuffSVG from '../assets/it-stuff.svg'
 
 const Offers = () => {
     return (
@@ -12,18 +17,21 @@ const Offers = () => {
                 
                 <div className="w-full grid md:grid-cols-6 justify-items-center gap-8 mt-8 mb-8">                
                     <OfferCard 
+                        src={MobileSVG}
                         heading="Mobile Development" 
                         firstPara="Tailor-made Mobile Applications"
                         secondPara="Boost your business to the next level with our mobile development team."
                     ></OfferCard>
                           
                     <OfferCard 
+                        src={WebSVG}
                         heading="Web Development" 
                         firstPara="Scalable, efficient web apps"
                         secondPara="Our web applications are reliable, efficient and regardless of the budget - made for easy scaling."
                     ></OfferCard>
 
                     <OfferCard 
+                        src={ProductSVG}
                         heading="Product Engineering" 
                         firstPara="They will love your products."
                         secondPara="We use the best practices in UI as well as UX of digital products which lead to beautiful and intuitive interfaces."
@@ -32,12 +40,14 @@ const Offers = () => {
                     <div></div>
 
                     <OfferCard 
+                        src={ITStuffSVG}
                         heading="IT Services" 
                         firstPara="Experts ready to work."
                         secondPara="Try our Website/SaaS Hosting, Remote IT outsourcing and Maintenance Support."
                     ></OfferCard>
 
                     <OfferCard 
+                        src={CloudSVG}
                         heading="Cloud Services" 
                         firstPara="For us, sky is not the limit."
                         secondPara="Efficient and flexible cloud based solutions for your data driven applications."
