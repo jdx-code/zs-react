@@ -6,19 +6,21 @@ import Offers from "./components/Offers";
 import Techstacks from "./components/Techstacks";
 import Clients from "./components/Clients";
 import OurProcess from "./components/OurProcess";
-import Partner from "./components/Partner";
+import CareerRibbon from "./components/CareerRibbon";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div>
       <Navbar/>  
       <Hero/>
-      <Partner/>
+      <CareerRibbon/>
       <ChooseUs/>                 
       <Offers/>
       <OurProcess/>
       <Clients/> 
-      <Techstacks/>      
+      <Techstacks/> 
+      <Footer/>     
     </div>
   );
 }
