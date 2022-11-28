@@ -1,4 +1,5 @@
 import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
     return(
@@ -55,23 +56,7 @@ const Footer = () => {
                     </div>
                 </div>
                 
-                <div className='grid grid-cols-4 col-span-2 text-xs font-bold mb-8'>
-                    <div className='col-span-1'>
-                        <ul>
-                            <li className='pb-4'>
-                                <a href="#">Twitter</a>
-                            </li>
-                            <li className='pb-4'>
-                                <a href="#">LinkedIn</a>
-                            </li>
-                            <li className='pb-4'>
-                                <a href="#">Facebook</a>
-                            </li>
-                            <li className='pb-4'>
-                                <a href="#">Instagram</a>
-                            </li>
-                        </ul>
-                    </div>
+                <div className='grid grid-cols-4 col-span-2 text-xs font-bold mb-8'>                    
                     <div className='col-span-3'>
                         <p className='font-bold text-lg pb-3 underline'>Reach Us</p>
                         <p className='pb-1'>Beltola Tiniali</p>
@@ -79,6 +64,22 @@ const Footer = () => {
                         <p className='pb-1'>Assam, India</p>
                         <p className='pb-1'>+91-7578094093</p>
                         <p className='pb-1'>info@zephyrsolutionsgroup.com</p>                    
+                    </div>
+                    <div className='col-span-1'>
+                        <ul>
+                            <li className='pb-4'>
+                                <a href="#"><FontAwesomeIcon icon={['fab', 'twitter']} size="lg"/></a>
+                            </li>
+                            <li className='pb-4'>
+                                <a href="#"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg"/></a>
+                            </li>
+                            <li className='pb-4'>
+                                <a href="#"><FontAwesomeIcon icon={['fab', 'facebook']} size="lg"/></a>
+                            </li>
+                            <li className='pb-4'>
+                                <a href="#"><FontAwesomeIcon icon={['fab', 'github']} size="lg"/></a>
+                            </li>
+                        </ul>
                     </div>                    
                 </div>            
             </div>

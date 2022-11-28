@@ -1,4 +1,5 @@
 import React from "react";
+import initFontAwesome from "./components/FontAwesomeIcons/initFontAwesome";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import ChooseUs from "./components/ChooseUs";
@@ -8,6 +9,8 @@ import Clients from "./components/Clients";
 import OurProcess from "./components/OurProcess";
 import CareerRibbon from "./components/CareerRibbon";
 import Footer from "./components/Footer";
+
+initFontAwesome();
 
 function App() {
   return (
