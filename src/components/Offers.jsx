@@ -12,7 +12,7 @@ const Offers = () => {
             <div className='flex flex-col justify-center items-center px-4 md:px-24'>
 
                 <div className="mx-auto px-2 text-center md:px-24">                
-                    <h1 className="text-[1.8rem] font-black m-1 px-6 py-1 text-center sm:text-text-[2rem] md:text-text-[2.2rem] md:m-6">What we offer ?</h1>
+                    <h1 className="text-[1.8rem] font-black m-1 px-6 py-1 text-center sm:text-[2rem] md:text-[2.2rem] md:m-6">What we offer ?</h1>
                 </div>            
                 
                 <div className="w-full grid lg:grid-cols-6 justify-items-center gap-8 mt-8 mb-8">                
