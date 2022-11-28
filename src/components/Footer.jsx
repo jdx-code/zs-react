@@ -11,7 +11,7 @@ const Footer = () => {
                         <div className='col-span-3 sm:col-span-2'>
                             <ul>                            
                                 <li className='pb-2'>
-                                    <a href="#">Web & Mobile Application</a>
+                                    <a href="#">Web Development</a>
                                 </li>
                                 <li className='pb-2'>
                                     <a href="#">Turbo Hosting Services</a>
@@ -25,19 +25,19 @@ const Footer = () => {
                             </ul>
                         </div>  
                         <div className='col-span-3 sm:col-span-2'>
-                            <ul>                            
+                            <ul>     
                                 <li className='pb-2'>
-                                    <a href="#">Web & Mobile Application</a>
+                                    <a href="#">UI/UX Design</a>
+                                </li>                       
+                                <li className='pb-2'>
+                                    <a href="#">Mobile Application</a>
                                 </li>
                                 <li className='pb-2'>
                                     <a href="#">Cloud Services</a>
                                 </li>
                                 <li className='pb-2'>
                                     <a href="#">Product Engineering</a>
-                                </li>
-                                <li className='pb-2'>
-                                    <a href="#">Internships & Training</a>
-                                </li>
+                                </li>                                
                             </ul>
                         </div> 
                         <div className='col-span-6 sm:col-span-2'>
