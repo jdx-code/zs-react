@@ -4,8 +4,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 const Footer = () => {
     return(
         <div className='bg-[#1b0424]'>
-            <div className='w-full max-w-[95%] m-auto md:pt-8 grid md:grid-cols-6 text-white'>
-                <div className='text-xs font-bold mb-8 col-span-4'>
+            <div className='w-full max-w-[95%] m-auto p-4 md:pt-8 grid md:grid-cols-6 text-white'>
+                <div className='w-full max-w-[95%] text-xs font-bold mb-8 col-span-4 md:border-r-2 md:border-blue-200'>
                     <p className='font-bold text-lg pb-3 underline'>Our Services</p>
                     <div className='grid grid-cols-6 '>                
                         <div className='col-span-3 sm:col-span-2'>
@@ -65,7 +65,7 @@ const Footer = () => {
                         <p className='pb-1'>+91-7578094093</p>
                         <p className='pb-1'>info@zephyrsolutionsgroup.com</p>                    
                     </div>
-                    <div className='col-span-1'>
+                    <div className='col-span-1 grid justify-items-end items-center'>
                         <ul>
                             <li className='pb-4'>
                                 <a href="#"><FontAwesomeIcon icon={['fab', 'twitter']} size="lg"/></a>
