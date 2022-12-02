@@ -2,9 +2,11 @@ import React from 'react';
 
 const About = () => {
     return(
-        <div className='bg-white'>  
-            <h1></h1>
+        <div className='bg-white'> 
+            <h1 className='text-4xl'>About Us</h1>
             <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum temporibus quasi quod esse sed officiis recusandae iste, repellat facilis ipsum!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vitae ea ipsam est dolorum sequi error et amet? Excepturi nemo assumenda dolores quaerat molestias tenetur, dolorum animi libero iusto, autem neque veritatis quas nostrum eum natus pariatur laborum delectus distinctio eius ratione unde magnam dolor. Vitae officiis aspernatur maxime minima similique consectetur esse debitis voluptate, hic repellat corrupti iure aut ipsa quisquam dolorum eius vel atque dolorem animi! Natus eaque voluptatum sit libero quibusdam repudiandae nesciunt soluta rerum doloremque fuga amet tenetur facere placeat sint molestias explicabo aliquam est tempore ex minima, et rem voluptatem? Facere, officia sapiente mollitia laudantium veniam expedita fugiat, cumque incidunt harum in quam explicabo voluptates iure quasi eius placeat veritatis magni officiis quia nesciunt. Accusantium velit architecto non inventore aut modi numquam laboriosam repellat temporibus perferendis! Odio accusamus ipsa iusto officia explicabo rerum molestias quo ducimus, dolore, corporis nihil aliquid aliquam perferendis quaerat ut quia quas! Sit soluta voluptatum ipsum vitae vero maxime, fugit aperiam aut porro possimus adipisci fuga suscipit dolorem iusto assumenda nihil. Amet, dolorum ex? Dolorem blanditiis fugit, optio, esse at facilis eum inventore tempore iure quos deleniti qui neque. Aliquam et ipsam voluptate tempora dolor dolores in sed veniam, minima quos!</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta molestias earum ipsam commodi dolorem, quo libero distinctio, nesciunt reiciendis quos quam placeat necessitatibus alias maxime aliquid optio explicabo porro quis. Rerum suscipit est rem pariatur voluptas, accusantium dolorem soluta earum, esse eius, dicta at cumque? Ut eos corrupti ipsam at dolorum tempore assumenda, officia iure vero voluptatum dolores expedita unde provident nisi. Aut fugit veniam mollitia eligendi ad architecto molestiae ducimus doloremque, dolore voluptas obcaecati nostrum, assumenda laboriosam. Perferendis veniam totam est autem consequuntur minima voluptate, debitis non fuga, voluptatem quos praesentium dolor quam veritatis dolore, sapiente delectus dignissimos repellat!</p>
         </div>
     )
 }
