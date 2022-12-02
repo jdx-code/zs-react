@@ -57,11 +57,41 @@ const Navbar = () =>{
                 <div className={nav ? "fixed left-0 top-0 w-[85%] h-[96%] z-20 border-r border-r-gray-900 bg-[#1b0424] ease-in-out duration-500" : "fixed left-[-100%]"}>
                 <h1 className="w-full text-green-100 text-lg font-bold uppercase m-4">Zephyr Solutions</h1>
                     <ul className="uppercase p-4">
-                        <li className="p-4 border-b border-gray-600">Home</li>
-                        <li className="p-4 border-b border-gray-600">About</li>
-                        <li className="p-4 border-b border-gray-600">Services</li>
-                        <li className="p-4 border-b border-gray-600">Career</li>
-                        <li className="p-4">Contact</li>
+                        <li className="p-4 border-b border-gray-600">
+                            <NavLink
+                                to="/"
+                            >
+                                Home
+                            </NavLink>
+                        </li>
+                        <li className="p-4 border-b border-gray-600">
+                            <NavLink
+                                to="/about"
+                            >
+                                About
+                            </NavLink>
+                        </li>
+                        <li className="p-4 border-b border-gray-600">
+                            <NavLink
+                                to="/services"
+                            >
+                                Services
+                            </NavLink>
+                        </li>
+                        <li className="p-4 border-b border-gray-600">
+                            <NavLink
+                                to="/career"
+                            >
+                                Career
+                            </NavLink>
+                        </li>
+                        <li className="p-4">
+                            <NavLink
+                                to="/contact"
+                            >
+                                Contact
+                            </NavLink>
+                        </li>
                     </ul>
                 </div>
             </div>
