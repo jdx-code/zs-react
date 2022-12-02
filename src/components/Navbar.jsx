@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { NavLink } from "react-router-dom";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 
 const Navbar = () =>{
@@ -10,14 +11,44 @@ const Navbar = () =>{
     }
 
     return(
-        <div className="flex justify-between items-center h-24 max-w-[1240px] mx-auto px-4 text-white">
+        <div className="navbar flex justify-between items-center h-24 w-full mx-auto px-4 text-white">
             <h1 className="w-full text-green-100 text-lg font-bold uppercase m-4">WEB STUDIO</h1>
             <ul className="hidden md:flex">
-                <li className="p-4">Home</li>
-                <li className="p-4">About</li>
-                <li className="p-4">Services</li>
-                <li className="p-4">Career</li>
-                <li className="p-4">Contact</li>
+                <li className="p-4">
+                    <NavLink                         
+                        to="/"                        
+                    >
+                        Home
+                    </NavLink>
+                </li>
+                <li className="p-4">
+                    <NavLink                         
+                        to="/about"                        
+                    >
+                        About
+                    </NavLink>
+                </li>
+                <li className="p-4">
+                    <NavLink                         
+                        to="/services"                        
+                    >
+                        Services
+                    </NavLink>
+                </li>
+                <li className="p-4">
+                    <NavLink                         
+                        to="/career"                        
+                    >
+                        Career
+                    </NavLink>
+                </li>                
+                <li className="p-4">
+                    <NavLink
+                        to="/contact"                        
+                    >
+                        Contact
+                    </NavLink>
+                </li>
             </ul>
             <div onClick={handleNav} className="block md:hidden">
                 {!nav ? <AiOutlineClose size={20}/>: <AiOutlineMenu size={20}/>}                

@@ -4,7 +4,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Noto+Sans:wght@300&display=swap');
 
-body{
+.main{
   font-family: 'Noto Sans', sans-serif;
   background: linear-gradient(rgba(37, 5, 49, 0.7), rgba(93, 41, 114, 0.7)), url(assets/mainbg.jpg);
   background-repeat: no-repeat;
@@ -12,6 +12,10 @@ body{
   background-position: center center;
   background-attachment: fixed;
   position: relative;
+}
+.navbar {  
+  background-color: #2c0f37;
+  opacity: 0.99;
 }
 
 /* ============ flip hover styles ============ */
