@@ -6,7 +6,7 @@ const BackOfCard = () => {
         // <div className="flex justify-center items-center card-back">
         //     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, dignissimos!</p>
         // </div>
-            <div class="flip-card-back flex justify-center items-center rounded-lg">
+            <div className="flip-card-back flex justify-center items-center rounded-lg">
                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit, dignissimos!</p>
             </div>
     );
