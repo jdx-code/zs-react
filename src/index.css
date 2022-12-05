@@ -6,17 +6,22 @@
 
 body{
   position: relative; 
+  font-family: 'Noto Sans', sans-serif;
 }
 
-.navbar, .main{
-  font-family: 'Noto Sans', sans-serif;
+.navHome, #main{  
   background: linear-gradient(rgba(37, 5, 49, 0.7), rgba(93, 41, 114, 0.7)), url(assets/mainbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;   
+  background-attachment: fixed;    
 }
-
+.footerClass ul li, p{
+  font-weight: normal;
+}
+.navOther{
+  background: #1b0424;
+}
 
 /* ============ flip hover styles ============ */
 

@@ -9,7 +9,7 @@ import CareerRibbon from "../components/CareerRibbon";
 
 const Home = () => {
     return(
-        <div className='main'>
+        <div id='main'>
             <Hero/>
             <CareerRibbon/>
             <ChooseUs/>                 

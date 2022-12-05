@@ -12,7 +12,7 @@ const Navbar = () =>{
 
     return(
         <div>
-            <div className="navbar flex justify-between items-center h-24 w-full mx-auto px-4 text-white">
+            <div id="navbar" className="flex justify-between items-center h-24 w-full mx-auto px-4 text-white">
                 <h1 className="w-full text-green-100 text-lg font-bold uppercase m-4">WEB STUDIO</h1>
                 <ul className="hidden md:flex">
                     <li className="p-4">
