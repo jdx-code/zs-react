@@ -15,8 +15,8 @@ const Hero = () => {
                         loop
                     />
                 </div>                                    
-                <p className="text-lg py-1 px-10 sm:text-xl md:text-xl ">Accelerate your business growth and boost efficiency from day one with fast and effective IT Solutions.</p>
-                <button className="w-[115px] bg-gray-100 text-[#2c0f37] font-black border-[1px] border-[white] text-sm px-2 py-2 mx-auto my-2 rounded-md sm:w-[145px] md:w-[160px] sm:text-lg md:text-xl hover:bg-[#2c0f37] hover:text-gray-100">Know us more</button>
+                <p className="text-lg py-1 px-10 sm:text-xl md:text-xl md:px-[60px]">Accelerate your business growth and boost efficiency from day one with fast and effective IT Solutions.</p>
+                <button className="w-[115px] bg-gray-100 text-[#2c0f37] font-black border-[1px] border-[white] text-sm px-2 py-2 mx-auto my-2 rounded-md sm:w-[145px] md:w-[160px] sm:text-lg md:text-xl hover:bg-[#2c0f37] hover:text-gray-100 hover:transition duration-150">Know us more</button>
             </div>                                    
         </div>
     )

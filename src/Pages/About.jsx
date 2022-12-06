@@ -16,6 +16,7 @@ const About = () => {
                     <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our work culture</h1>
                     <p className='text-sm py-2 sm:text-lg md:text-xl'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
 We div into your business challenges to develop and deliver game-changing solutions for your growth.
+We dive into your business challenges to develop and deliver game-changing solutions for your growth.
 </p>
                 </div>
                 <div className='md:w-[35%]'>

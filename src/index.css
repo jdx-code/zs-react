@@ -5,13 +5,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300&family=Noto+Sans:wght@300&display=swap');
 
 body{
+  position: relative; 
   font-family: 'Noto Sans', sans-serif;
+}
+
+.navHome, #main{  
   background: linear-gradient(rgba(37, 5, 49, 0.7), rgba(93, 41, 114, 0.7)), url(assets/mainbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  background-attachment: fixed;
-  position: relative;
+  background-attachment: fixed;    
+}
+.footerClass ul li, p{
+  font-weight: normal;
+}
+.navOther{
+  background: #1b0424;
+}
+
+.aboutClass{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent), url(assets/aboutBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
 }
 
 /* ============ flip hover styles ============ */
