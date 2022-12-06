@@ -23,6 +23,15 @@ body{
   background: #1b0424;
 }
 
+.aboutClass{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent), url(assets/aboutBG.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
 /* ============ flip hover styles ============ */
 
 /* .mainContainer{

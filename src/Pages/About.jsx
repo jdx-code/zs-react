@@ -1,13 +1,60 @@
 import React from 'react';
+import ChooseUsImage from '../assets/choose.png'
+import LaunchSupport from '../assets/support-svgrepo-com.svg';
 
 const About = () => {
     return(
-        <div className='bg-white'> 
-            <h1 className='text-4xl'>About Us</h1>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum temporibus quasi quod esse sed officiis recusandae iste, repellat facilis ipsum!</p>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim vitae ea ipsam est dolorum sequi error et amet? Excepturi nemo assumenda dolores quaerat molestias tenetur, dolorum animi libero iusto, autem neque veritatis quas nostrum eum natus pariatur laborum delectus distinctio eius ratione unde magnam dolor. Vitae officiis aspernatur maxime minima similique consectetur esse debitis voluptate, hic repellat corrupti iure aut ipsa quisquam dolorum eius vel atque dolorem animi! Natus eaque voluptatum sit libero quibusdam repudiandae nesciunt soluta rerum doloremque fuga amet tenetur facere placeat sint molestias explicabo aliquam est tempore ex minima, et rem voluptatem? Facere, officia sapiente mollitia laudantium veniam expedita fugiat, cumque incidunt harum in quam explicabo voluptates iure quasi eius placeat veritatis magni officiis quia nesciunt. Accusantium velit architecto non inventore aut modi numquam laboriosam repellat temporibus perferendis! Odio accusamus ipsa iusto officia explicabo rerum molestias quo ducimus, dolore, corporis nihil aliquid aliquam perferendis quaerat ut quia quas! Sit soluta voluptatum ipsum vitae vero maxime, fugit aperiam aut porro possimus adipisci fuga suscipit dolorem iusto assumenda nihil. Amet, dolorum ex? Dolorem blanditiis fugit, optio, esse at facilis eum inventore tempore iure quos deleniti qui neque. Aliquam et ipsam voluptate tempora dolor dolores in sed veniam, minima quos!</p>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta molestias earum ipsam commodi dolorem, quo libero distinctio, nesciunt reiciendis quos quam placeat necessitatibus alias maxime aliquid optio explicabo porro quis. Rerum suscipit est rem pariatur voluptas, accusantium dolorem soluta earum, esse eius, dicta at cumque? Ut eos corrupti ipsam at dolorum tempore assumenda, officia iure vero voluptatum dolores expedita unde provident nisi. Aut fugit veniam mollitia eligendi ad architecto molestiae ducimus doloremque, dolore voluptas obcaecati nostrum, assumenda laboriosam. Perferendis veniam totam est autem consequuntur minima voluptate, debitis non fuga, voluptatem quos praesentium dolor quam veritatis dolore, sapiente delectus dignissimos repellat!</p>
-        </div>
+        <div>
+            <div className='aboutClass w-full h-[500px]'> 
+                <div className='px-12 py-[245px] flex flex-col flex-wrap justify-center text-gray-300 md:w-[700px]'>
+                    <h1 className='text-4xl font-black py-2 md:text-5xl'>About Us</h1>
+                    <p className='w-[300px]  text-md font-black md:text-lg md:w-full'>Your trusted software partner equipped with IoT, hardware and firmware design expertise. </p>
+                </div>                
+            </div>
+            <div className='flex flex-col-reverse md:flex-row my-12'>
+                <div className='px-12 py-4 text-center md:w-[65%]'>
+                    <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our work culture</h1>
+                    <p className='text-sm py-2 sm:text-lg md:text-xl'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
+We dive into your business challenges to develop and deliver game-changing solutions for your growth.
+</p>
+                </div>
+                <div className='md:w-[35%]'>
+                    <img className="w-[300px] mx-auto my-2 sm:w-[400px] md:w-[600px]" src={ChooseUsImage} alt="/" />
+                </div>
+            </div>
+            <div className='grid my-12'>
+                <div className='text-center'>
+                    <h1 className='text-[1.7rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our mission and values</h1>
+                    <p className='text-sm py-2 sm:text-lg md:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil accusamus sequi ipsam dolor totam.</p>
+                </div>
+                <div className='grid md:grid-cols-6 md:justify-items-center'>
+                    <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam iste aperiam qui.</p>
+                    </div>                    
+                    <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo impedit quod repudiandae!</p>
+                    </div>                    
+                    <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus amet rerum eum eius unde.</p>
+                    </div>
+                    <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deserunt!</p>
+                    </div>                    
+                    <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                    <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>                    
+                </div>
+            </div>
+        </div>        
     )
 }
 
