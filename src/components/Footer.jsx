@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
     return(
-        <div className='bg-[#1b0424]'>
+        <div className='footerClass bg-[#1b0424]'>
             <div className='w-full max-w-[95%] m-auto p-4 md:pt-8 grid md:grid-cols-6 text-white'>
                 <div className='w-full max-w-[95%] text-xs font-bold mb-8 col-span-4 md:border-r-2 md:border-blue-200'>
                     <p className='font-bold text-lg pb-3 underline'>Our Services</p>
