@@ -20,7 +20,7 @@ body{
   font-weight: normal;
 }
 .navOther{
-  background: #1b0424;
+  background: #191a2b;
 }
 
 .aboutClass{
@@ -65,6 +65,33 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;  
+}
+/* .contactClass{
+  background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent), url(assets/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;  
+} */
+.talkBubbbleOne {
+  width: 320px;
+  height: 80px;
+  background: red;
+  position: relative;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+.talkBubbbleOne:before {
+  content: "";
+  position: absolute;
+  right: 100%;
+  top: 95px;
+  left: 55px;
+  width: 0;
+  height: 0;
+  border-top: 45px solid red;
+  border-right: 25px solid transparent;
+  border-left: 16px solid transparent;  
 }
 /* ============ flip hover styles ============ */
 
