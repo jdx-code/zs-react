@@ -12,9 +12,11 @@ const Contact = () => {
                 </form>
             </div>            
             <div className='w-full max-w-[600px] p-2 bg-[#06283D] rounded-lg'>
-                <div className='w-full p-24 text-white'>
-                    <p className='text-xl text-blue-100 pb-4'>Hello</p>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ullam voluptas magnam deleniti maiores recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sapiente alias porro laborum ad molestiae doloribus fugit commodi dolorum provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ratione.</p>               
+                <div className='w-full px-12 py-24 text-white'>                    
+                    <blockquote>                    
+                        <p className='text-xl text-blue-100 pb-4'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor ullam voluptas magnam deleniti maiores recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque sapiente alias porro laborum ad molestiae doloribus fugit commodi dolorum provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, ratione.</p>               
+                        <span>Team Zephyr</span>
+                    </blockquote>
                 </div>                
             </div>
         </div>
