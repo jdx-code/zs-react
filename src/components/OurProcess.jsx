@@ -7,7 +7,7 @@ import ProcessCard from './ProcessCard';
 
 const OurProcess = () => {
     return(
-        <div className="w-full bg-white text-[#2c0f37] font-black border-2 border-blue-500 py-12">
+        <div className="w-full bg-white text-[#2c0f37] font-black border-2 py-12">
             <div className='flex flex-col justify-center items-center px-4 md:px-2'>
                 <div className='mx-2 px-2 text-center sm:px-20'>
                     <h1 className='text-[1.8rem] font-black m-1 py-1 text-center sm:text-[2rem] md:text-[2.2rem]'>We take full-cycle care of our clients</h1>

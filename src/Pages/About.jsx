@@ -1,6 +1,12 @@
 import React from 'react';
-import ChooseUsImage from '../assets/choose.png'
+import AboutImage from '../assets/about.svg';
 import LaunchSupport from '../assets/support-svgrepo-com.svg';
+import ClientImage from '../assets/clientfirst.svg';
+import CollaborationImage from '../assets/collaboration.svg';
+import DedicationImage from '../assets/dedication.svg';
+import DiversityImage from '../assets/diversity.svg';
+import SmartImage from '../assets/smart.svg';
+import GrowthImage from '../assets/growth.svg';
 
 const About = () => {
     return(
@@ -12,45 +18,45 @@ const About = () => {
                 </div>                
             </div>
             <div className='flex flex-col-reverse md:flex-row my-12'>
-                <div className='px-12 py-4 text-center md:w-[65%]'>
-                    <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our work culture</h1>
+                <div className='px-12 py-4 text-center md:w-[60%]'>
+                    <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>A li'l about us and our work culture</h1>
                     <p className='text-sm py-2 sm:text-lg md:text-xl'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
 We (dive) into your business challenges to develop and deliver game-changing solutions for your growth.
 </p>
                 </div>
                 <div className='md:w-[35%]'>
-                    <img className="w-[300px] mx-auto my-2 sm:w-[400px] md:w-[600px]" src={ChooseUsImage} alt="/" />
+                    <img className="w-[300px] mx-auto my-2 sm:w-[400px] md:w-[600px]" src={AboutImage} alt="/" />
                 </div>
             </div>
             <div className='grid my-12'>
                 <div className='text-center'>
                     <h1 className='text-[1.7rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our mission and values</h1>
-                    <p className='text-sm py-2 sm:text-lg md:text-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio nihil accusamus sequi ipsam dolor totam.</p>
+                    <p className='text-sm py-2 sm:text-lg md:text-xl'>A community comprised of Software, UX, & Product experts with a passion for building and delivering client-centric solutions</p>
                 </div>
                 <div className='grid md:grid-cols-6 md:justify-items-center'>
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veniam iste aperiam qui.</p>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={ClientImage}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Client-first</span> - With our client-first approach we always meet the correct requirements.</p>
                     </div>                    
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo impedit quod repudiandae!</p>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={CollaborationImage}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Collaboration</span> - We believe in collaboration and appreciate opinions of everyone in team.</p>
                     </div>                    
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus amet rerum eum eius unde.</p>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={DedicationImage}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Dedication</span> - Each and every problem is looked upon with pure dedication.</p>
                     </div>
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, deserunt!</p>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={DiversityImage}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Diversity</span> - We appreciate diverse cultures and hence approach problems from multiple perspectives.</p>
                     </div>                    
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={SmartImage}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Simple & Smart</span> - We find simple yet smart ways to solve any given issue. This ensures client satisfaction.</p>
                     </div>
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={LaunchSupport}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={GrowthImage}/>
+                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Growth</span> - We believe that everyone should get an opportunity to grow. And so we provide that.</p>
                     </div>                    
                 </div>
             </div>

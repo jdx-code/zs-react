@@ -3,7 +3,7 @@ import ChooseUsImage from '../assets/choose.png'
 
 const ChooseUs = () => {
     return (
-        <div className="w-full bg-white py-8 px-4">
+        <div className="w-full bg-white px-4 py-12">
             <div className="max-w-[1240px] mx-auto grid text-[#2c0f37] md:grid-cols-2">
                 <img className="w-[300px] mx-auto my-4 sm:w-[400px] md:w-[500px]" src={ChooseUsImage} alt="/" />
                 <div className="font-bold flex flex-col justify-center items-center text-center md:items-start md:text-left">
