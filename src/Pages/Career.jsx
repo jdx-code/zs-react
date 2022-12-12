@@ -22,7 +22,11 @@ const Career = () => {
                 <div className='px-12 py-4 md:w-[50%]'>
                     <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2rem]'>Internship Openings</h1>
                     <p className='text-sm py-2 sm:text-lg md:text-xl'> Everyone needs to start somewhere. But with Zephyr, it's not any ordinary start. We offer industry based projects for Interns to prepare themselves for a better tomorrow.</p>                    
-                    <p className='text-sm py-2 sm:text-lg md:text-lg'> Register your name for an Internship Opportunity. Click <span className='text-xl font-bold text-purple-800'>here</span>.</p>
+                    <p className='text-sm py-2 sm:text-lg md:text-lg'> Register your name for an Internship Opportunity. Click 
+                        <span className='text-xl font-bold text-purple-800'>
+                            <a href="https://forms.gle/YakeV6t72HFsU9VA6"> here</a>
+                        </span>.
+                    </p>
                 </div>
             </div>                      
             
