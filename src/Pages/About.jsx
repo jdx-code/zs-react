@@ -31,32 +31,32 @@ We (dive) into your business challenges to develop and deliver game-changing sol
             <div className='grid my-12'>
                 <div className='text-center'>
                     <h1 className='text-[1.7rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our mission and values</h1>
-                    <p className='text-sm py-2 sm:text-lg md:text-xl'>A community comprised of Software, UX, & Product experts with a passion for building and delivering client-centric solutions</p>
+                    <p className='text-sm px-8 py-2 sm:text-lg md:text-xl md:px-[100px] lg:px-[270px]'>A community comprised of Software, UX, & Product experts with a passion for building and delivering client-centric solutions</p>
                 </div>
-                <div className='grid md:grid-cols-6 md:justify-items-center'>
+                <div className='grid md:grid-cols-6 md:justify-items-center py-12'>
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={ClientImage}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Client-first</span> - With our client-first approach we always meet the correct requirements.</p>
+                        <img className='col-span-1 md:mx-auto w-16' src={ClientImage}/>
+                        <p className='col-span-5 md:text-center'> <span className='text-lg font-black'>Client-first</span> - With our client-first approach we always meet the correct requirements.</p>
                     </div>                    
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={CollaborationImage}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Collaboration</span> - We believe in collaboration and appreciate opinions of everyone in team.</p>
+                        <img className='col-span-1 md:mx-auto w-16' src={CollaborationImage}/>
+                        <p className='col-span-5 md:text-center'> <span className='text-lg font-black'>Collaboration</span> - We believe in collaboration and appreciate opinions of everyone in team.</p>
                     </div>                    
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={DedicationImage}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Dedication</span> - Each and every problem is looked upon with pure dedication.</p>
+                        <img className='col-span-1 md:mx-auto w-16' src={DedicationImage}/>
+                        <p className='col-span-5 md:text-center'> <span className='text-lg font-black'>Dedication</span> - Each and every problem is looked upon with pure dedication.</p>
                     </div>
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={DiversityImage}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Diversity</span> - We appreciate diverse cultures and hence approach problems from multiple perspectives.</p>
+                        <img className='col-span-1 md:mx-auto w-16' src={DiversityImage}/>
+                        <p className='col-span-5 md:text-center'> <span className='text-lg font-black'>Diversity</span> - We appreciate diverse cultures and hence approach problems from multiple perspectives.</p>
                     </div>                    
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={SmartImage}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Simple & Smart</span> - We find simple yet smart ways to solve any given issue. This ensures client satisfaction.</p>
+                        <img className='col-span-1 md:mx-auto w-16' src={SmartImage}/>
+                        <p className='col-span-5 md:text-center'> <span className='text-lg font-black'>Simple & Smart</span> - We find simple yet smart ways to solve any given issue. This ensures client satisfaction.</p>
                     </div>
                     <div className='grid grid-cols-6 px-4 py-4 md:block md:col-span-2 md:px-16'>
-                        <img className='border-2 border-red-800 col-span-1 md:mx-auto' src={GrowthImage}/>
-                        <p className='border-2 border-blue-800 col-span-5 md:text-center'> <span className='text-lg font-black'>Growth</span> - We believe that everyone should get an opportunity to grow. And so we provide that.</p>
+                        <img className='col-span-1 md:mx-auto w-16' src={GrowthImage}/>
+                        <p className='col-span-5 md:text-center'> <span className='text-lg font-black'>Growth</span> - We believe that everyone should get an opportunity to grow. And so we provide that.</p>
                     </div>                    
                 </div>
             </div>
