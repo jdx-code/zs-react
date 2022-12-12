@@ -43,13 +43,20 @@ body{
 
 .domainCard ul li{
   padding: 12px 0 6px 0;
-  border-bottom: 1px solid yellow;
+  border-bottom: 1px solid silver;
 }
-.domainCard p{
+.domainCard h3{
   padding: 2px 0 15px 0;
+  font-size: 1.4rem;
+  font-weight: 600;
 }
 .domainCard button{
-  padding: 30px 0 2px 0;
+  margin: 30px 0 2px 0;
+  padding: 10px;
+  font-weight: 700;
+  color: white;
+  border-radius: 5px;
+  background-color: #2563eb;
 }
 
 .careerClass{
