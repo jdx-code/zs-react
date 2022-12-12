@@ -103,14 +103,14 @@ body{
 
 blockquote{
   font-size: 1.4em;
-  width:100%;
+  width:100%;  
   margin:0;
   font-family:Open Sans;
   font-style:italic;
   color: #555555;
   padding:2px;  
   line-height:1.6;
-  position: relative;  
+  position: relative;    
 }
 
 blockquote::before{
@@ -119,11 +119,11 @@ blockquote::before{
   color:#fff;
   font-size:4em;
   position: absolute;
-  left: -25px;
+  left: -15px;
   top:-75px;
 }
 
-blockquote::after{  
+/* blockquote::after{  
   font-family:Arial;
   content: "\201D";
   color:#fff;
@@ -131,7 +131,7 @@ blockquote::after{
   position: absolute;
   left: 425px;
   top:185px;
-}
+} */
 
 blockquote span{
   display:block;
@@ -140,8 +140,12 @@ blockquote span{
   font-weight: bold;
   margin-top:1em;
   position: absolute;
-  left: 250px;
+  text-align:end;  
+  width: 100%;  
+}
 
+@media (max-width: 639px){
+ 
 }
 /* ============ flip hover styles ============ */
 
