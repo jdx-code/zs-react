@@ -53,7 +53,7 @@ We (dive) into your business challenges to develop and deliver game-changing sol
 
             <div>
                 <h1 className='text-3xl font-black py-2 md:text-4xl text-center m-12'>Domains & Hosting Plans</h1>
-                <div className='grid md:grid-cols-3 gap-24 mx-24 my-12 text-center'>
+                <div className='grid mx-12 sm:mx-36 md:grid-cols-3 md:gap-3 lg:gap-8 md:mx-8 lg:mx-20 lg:px-2 my-12 text-center'>
                     <div className='domainCard p-12 bg-[#EDE4E0] border-4 border-pink-200 rounded-xl hover:border-2 hover:border-[#3b1949] hover:scale-105 hover:shadow-2xl duration-300'>
                         <h3>Zephyr Basic</h3>
                         <ul>
@@ -66,7 +66,7 @@ We (dive) into your business challenges to develop and deliver game-changing sol
                         <button>Buy @ 199/month</button>
                     </div>
 
-                    <div className='domainCard p-12 bg-[#EDE4E0] border-4 border-pink-200 rounded-xl hover:border-2 hover:border-[#3b1949] hover:scale-105 hover:shadow-2xl duration-300'>
+                    <div className='domainCard p-12 my-4 md:my-0 bg-[#EDE4E0] border-4 border-pink-200 rounded-xl hover:border-2 hover:border-[#3b1949] hover:scale-105 hover:shadow-2xl duration-300'>
                         <h3>Zephyr Standard</h3>
                         <ul>
                             <li>3 Domains</li>
