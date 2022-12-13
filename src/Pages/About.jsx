@@ -19,7 +19,7 @@ const About = () => {
             </div>
             <div className='flex flex-col-reverse items-center md:flex-row my-12 text-sm sm:text-lg'>
                 <div className='px-12 py-4 text-center md:w-[50%] lg:w-[60%]'>
-                    <h1 className='text-[1.3rem] sm:text-[2rem] md:text-[2.2rem] font-black'>A li'l about us and our work culture</h1>
+                    <h1 className='m-2 text-[1.3rem] sm:text-[2rem] md:text-[2.2rem] font-black leading-9'>A li'l about us and our work culture</h1>
                     <p className='py-2'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
 We (dive) into your business challenges to develop and deliver game-changing solutions for your growth.
 </p>
@@ -30,7 +30,7 @@ We (dive) into your business challenges to develop and deliver game-changing sol
             </div>
             <div className='grid my-12 text-sm sm:text-lg'>
                 <div className='text-center'>
-                    <h1 className='text-[1.3rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our mission and values</h1>
+                    <h1 className='m-2 text-[1.3rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our mission and values</h1>
                     <p className='px-8 py-2 md:px-[100px] lg:px-[270px]'>A community comprised of Software, UX, & Product experts with a passion for building and delivering client-centric solutions</p>
                 </div>
                 <div className='grid md:grid-cols-6 md:justify-items-center py-12'>

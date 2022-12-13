@@ -17,23 +17,23 @@ const Services = () => {
             </div>
             <div className='flex flex-col-reverse items-center md:flex-row my-12'>
                 <div className='px-12 py-4 text-center md:w-[60%]'>
-                    <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Web & Mobile Development</h1>
-                    <p className='text-sm py-2 sm:text-lg md:text-xl'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
+                    <h1 className='font-black text-[1.3rem] sm:text-[2rem] md:text-[2.2rem]'>Web & Mobile Development</h1>
+                    <p className='py-2 text-sm sm:text-lg'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
 We (dive) into your business challenges to develop and deliver game-changing solutions for your growth.
 </p>
                 </div>
                 <div className='md:w-[40%]'>
-                    <img className="w-[300px] mx-auto my-2 sm:w-[400px] md:w-[250px]" src={WebSVG} alt="/" />
+                    <img className="w-[125px] mx-auto my-2 sm:w-[180px] md:w-[200px]" src={WebSVG} alt="/" />
                 </div>
             </div>           
 
-            <div className='flex flex-col-reverse items-center md:flex-row my-12'>
+            <div className='flex flex-col items-center md:flex-row my-12'>
                 <div className='md:w-[40%]'>
-                    <img className="w-[300px] mx-auto my-2 sm:w-[400px] md:w-[250px]" src={CloudSVG} alt="/" />
+                    <img className="w-[125px] mx-auto my-2 sm:w-[180px] md:w-[200px]" src={CloudSVG} alt="/" />
                 </div>
                 <div className='px-12 py-4 text-center md:w-[60%]'>
                     <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Cloud Services</h1>
-                    <p className='text-sm py-2 sm:text-lg md:text-xl'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
+                    <p className='py-2 text-sm sm:text-lg'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
 We (dive) into your business challenges to develop and deliver game-changing solutions for your growth.
 </p>
                 </div>                
@@ -41,13 +41,13 @@ We (dive) into your business challenges to develop and deliver game-changing sol
 
             <div className='flex flex-col-reverse items-center md:flex-row my-12'>
                 <div className='px-12 py-4 text-center md:w-[60%]'>
-                    <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Tech & Agile Consulting</h1>
-                    <p className='text-sm py-2 sm:text-lg md:text-xl'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
+                    <h1 className='font-black sm:text-[2rem] md:text-[2.2rem]'>Tech & Agile Consulting</h1>
+                    <p className='py-2 text-sm sm:text-lg'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
 We (dive) into your business challenges to develop and deliver game-changing solutions for your growth.
 </p>
                 </div>
                 <div className='md:w-[40%]'>
-                    <img className="w-[300px] mx-auto my-2 sm:w-[400px] md:w-[250px]" src={ITStuffSVG} alt="/" />
+                    <img className="w-[125px] mx-auto my-2 sm:w-[180px] md:w-[200px]" src={ITStuffSVG} alt="/" />
                 </div>
             </div>
 
