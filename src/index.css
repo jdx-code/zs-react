@@ -9,8 +9,8 @@ body{
   font-family: 'Noto Sans', sans-serif;
 }
 
-.navHome, #main{  
-  background: linear-gradient(rgba(37, 5, 49, 0.7), rgba(93, 41, 114, 0.7)), url(assets/mainbg.jpg);
+.navHome, #main{    
+  background: linear-gradient(rgba(37, 5, 49, 0.7), rgba(60, 14, 78, 0.7)), url(assets/mainbg.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;

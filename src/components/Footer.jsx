@@ -2,9 +2,12 @@ import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 const Footer = () => {
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+
     return(
-        <div className='footerClass bg-[#191a2b]'>
-            <div className='w-full max-w-[95%] m-auto p-4 md:pt-8 grid md:grid-cols-6 text-white'>
+        <div className='footerClass bg-[#191a2b] text-white'>
+            <div className='w-full max-w-[95%] m-auto p-4 md:pt-8 grid md:grid-cols-6'>
                 <div className='w-full max-w-[95%] text-xs font-bold mb-8 col-span-4 md:border-r-2 md:border-blue-200'>
                     <p className='font-bold text-lg pb-3 underline'>Our Services</p>
                     <div className='grid grid-cols-6 '>                
@@ -81,8 +84,12 @@ const Footer = () => {
                             </li>
                         </ul>
                     </div>                    
-                </div>            
-            </div>
+                </div>                        
+            </div>        
+            <div className='w-full'>
+                <p className='text-center pb-4 text-sm'>Zephyr Solutions &#169; {currentYear} | All rights reserved. </p>                           
+            </div>    
+            
         </div>        
     )
 }
