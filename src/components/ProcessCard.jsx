@@ -15,7 +15,7 @@ const ProcessCard = (props) => {
         <div className="flip-card md:w-[95%]">
             <div className="flip-card-inner w-full max-w-[99%] h-60 text-center font-black bg-[#EDE4E0] border-2 border-pink-200 hover:border-none rounded-lg shadow-xl md:max-w-[99%] text-white">
                 <FrontOfCard src={props.src} para={props.para}/>
-                <BackOfCard/>
+                <BackOfCard back={props.back}/>
             </div>
         </div> 
         

@@ -16,25 +16,29 @@ const OurProcess = () => {
                 <div className='w-full grid justify-items-center sm:grid-cols-2 lg:grid-cols-4 gap-8 mt-8 mb-8 sm:px-12'>                
                     <ProcessCard 
                         src={FirstInteraction} 
-                        para="First Interaction"
+                        para="Share your vision "
+                        back="You share your vision. We assign a dedicated team to build your dream project."
                     >
                     </ProcessCard>
 
                     <ProcessCard
                         src={EvaluationScope}
-                        para="Evaluation and Scope"
+                        para="Get a roadmap"
+                        back="We present a clear roadmap of the development process to turn your vision into reality."
                     >
                     </ProcessCard>
 
                     <ProcessCard
                         src={DevTesting}
                         para="Development and Testing"
+                        back="Developers work closely with testing team to ensure you get the best possible results."
                     >
                     </ProcessCard>
 
                     <ProcessCard
                         src={LaunchSupport}
                         para="Post-launch support"
+                        back="Post delivery, we take care of ongoing project maintenance, updates, and infrastructure."
                     >
                     </ProcessCard>                    
                 </div>

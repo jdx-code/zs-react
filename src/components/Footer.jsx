@@ -17,10 +17,10 @@ const Footer = () => {
                                     <a href="#">Web Development</a>
                                 </li>
                                 <li className='pb-2'>
-                                    <a href="#">Turbo Hosting Services</a>
+                                    <a href="#">Mobile Application</a>
                                 </li>
                                 <li className='pb-2'>
-                                    <a href="#">Internships & Training</a>
+                                    <a href="#">Product Engineering</a>
                                 </li>
                                 <li className='pb-2'>
                                     <a href="#">Internships & Training</a>
@@ -33,13 +33,13 @@ const Footer = () => {
                                     <a href="#">UI/UX Design</a>
                                 </li>                       
                                 <li className='pb-2'>
-                                    <a href="#">Mobile Application</a>
-                                </li>
-                                <li className='pb-2'>
                                     <a href="#">Cloud Services</a>
                                 </li>
                                 <li className='pb-2'>
-                                    <a href="#">Product Engineering</a>
+                                    <a href="#">IT Outsourcing</a>
+                                </li>
+                                <li className='pb-2'>
+                                    <a href="#">Agile Consulting</a>
                                 </li>                                
                             </ul>
                         </div> 
@@ -52,7 +52,7 @@ const Footer = () => {
                                     <a href="#">IT Products & Services</a>
                                 </li>                            
                                 <li className='pb-2'>
-                                    <a href="#">Maintenance Services</a>
+                                    <a href="#">Maintenance & Support</a>
                                 </li>
                             </ul>
                         </div>             
