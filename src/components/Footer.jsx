@@ -71,16 +71,16 @@ const Footer = () => {
                     <div className='col-span-1 grid justify-items-end items-center'>
                         <ul>
                             <li className='pb-4'>
-                                <a href="#"><FontAwesomeIcon icon={['fab', 'twitter']} size="lg"/></a>
+                                <a href="https://twitter.com/jdx_code"><FontAwesomeIcon icon={['fab', 'twitter']} size="lg"/></a>
                             </li>
                             <li className='pb-4'>
-                                <a href="#"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg"/></a>
+                                <a href="https://www.linkedin.com/in/zephyrsolutionsgroup/"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg"/></a>
                             </li>
                             <li className='pb-4'>
-                                <a href="#"><FontAwesomeIcon icon={['fab', 'facebook']} size="lg"/></a>
+                                <a href="https://www.facebook.com/zephyrsolutionsgroup"><FontAwesomeIcon icon={['fab', 'facebook']} size="lg"/></a>
                             </li>
                             <li className='pb-4'>
-                                <a href="#"><FontAwesomeIcon icon={['fab', 'github']} size="lg"/></a>
+                                <a href="https://github.com/zephyrsolutions"><FontAwesomeIcon icon={['fab', 'github']} size="lg"/></a>
                             </li>
                         </ul>
                     </div>                    

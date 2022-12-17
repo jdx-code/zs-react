@@ -5,10 +5,10 @@ const Contact = () => {
         <div className='contactClass w-full p-8 grid md:grid-cols-2 justify-items-center'>                         
             <div className='w-full max-w-[600px] md:p-2'>
                 <h1 className='text-xl text-[#06283d] font-bold pb-4'>Write to us</h1>                        
-                <form method="post" action="" className='flex flex-col w-full'>
-                    <input className='p-4 rounded-lg border-2 border-purple-300 bg-purple-200' type="text" name="" placeholder="Your name"/>
-                    <input className='my-2 p-4 rounded-lg border-2 border-purple-300 bg-purple-200' type="email" name="" placeholder="Your email"/>
-                    <textarea className='p-4 rounded-lg border-2 border-purple-300 bg-purple-200' rows="10" placeholder="Your message"></textarea>
+                <form className='flex flex-col w-full' action="https://getform.io/f/ca3ab37f-0222-4a63-8689-431133d3e726" method="post">
+                    <input className='p-4 rounded-lg border-2 border-purple-300 bg-purple-200' type="text" name="fullname" placeholder="Your name"/>
+                    <input className='my-2 p-4 rounded-lg border-2 border-purple-300 bg-purple-200' type="email" name="email" placeholder="Your email"/>
+                    <textarea className='p-4 rounded-lg border-2 border-purple-300 bg-purple-200' rows="10" name="message" placeholder="Your message"></textarea>
                     <button className='w-full text-white text-xl font-bold bg-[#06283d] border-2 border-[#06283d] my-2 px-4 py-3 rounded-md text-md hover:bg-[#191a2b]'>Submit</button>
                 </form>
             </div>            
