@@ -5,7 +5,7 @@ import Typed from "react-typed";
 const Hero = () => {
     return(
         <div className="text-green-100 h-screen">
-            <div className="max-w-[800px] w-full py-24 mx-auto text-center flex flex-col justify-center">                                
+            <div className="max-w-[800px] w-full py-24 md:py-32 mx-auto text-center flex flex-col justify-center">                                
                 <div className="md:flex flex-row justify-center items-center">
                     <h1 className="text-4xl font-bold py-4 px-2 sm:text-5xl lg:text-5xl">Solutions that are</h1>
                     <Typed 

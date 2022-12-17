@@ -18,39 +18,34 @@ const Offers = () => {
                 <div className="w-full grid lg:grid-cols-6 justify-items-center gap-8 mt-8 mb-8">                
                     <OfferCard 
                         src={MobileSVG}
-                        heading="Mobile Development" 
-                        firstPara="Tailor-made Mobile Apps"
-                        secondPara="Boost your business with our mobile development team."
+                        heading="Mobile Development"                         
+                        paragraph="Build mobile apps that optimize your buyer journey."
                     ></OfferCard>
                           
                     <OfferCard 
                         src={WebSVG}
-                        heading="Web Development" 
-                        firstPara="Tailor-made Mobile Apps"
-                        secondPara="Boost your business with our mobile development team."
+                        heading="Web Development"                         
+                        paragraph="Build secure, scalable, and responsive web apps."
                     ></OfferCard>
 
                     <OfferCard 
                         src={ProductSVG}
-                        heading="Product Engineering" 
-                        firstPara="Tailor-made Mobile Apps"
-                        secondPara="Boost your business with our mobile development team."
+                        heading="UI/UX Design"                         
+                        paragraph="Connect to your audience through persuasive designing."
                     ></OfferCard>
                     
                     <div></div>
 
                     <OfferCard 
                         src={ITStuffSVG}
-                        heading="IT Services" 
-                        firstPara="Tailor-made Mobile Apps"
-                        secondPara="Boost your business with our mobile development team."
+                        heading="IT Consulting"                         
+                        paragraph="Optimize your business with the best technology team."
                     ></OfferCard>
 
                     <OfferCard 
                         src={CloudSVG}
-                        heading="Cloud Services" 
-                        firstPara="Tailor-made Mobile Apps"
-                        secondPara="Boost your business with our mobile development team."
+                        heading="Cloud Services"                         
+                        paragraph="Accelerate growth with high-performing cloud solutions."
                     ></OfferCard>
 
                     <div></div>

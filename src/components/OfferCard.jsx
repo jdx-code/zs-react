@@ -8,9 +8,7 @@ const OfferCard = (props) => {
                 <h1 className="text-[1.1rem] sm:text-lg md:text-xl">{props.heading}</h1>                    
             </div>
             <div className='mx-2 my-auto'>                
-                <p className='text-[1rem] sm:text-sm md:text-sm lg:text-lg'>{props.firstPara}</p>
-                <p></p>
-                <p className='text-[0.9rem] sm:text-sm md:text-sm lg:text-lg'>{props.secondPara}</p>
+                <p className='text-[1rem] sm:text-sm md:text-sm lg:text-lg'>{props.paragraph}</p>                
             </div>
         </div>
     )
