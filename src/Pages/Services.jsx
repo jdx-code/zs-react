@@ -12,14 +12,14 @@ const Services = () => {
             <div className='servicesClass w-full h-[500px]'> 
                 <div className='px-12 py-[245px] flex flex-col flex-wrap justify-center text-gray-300 md:w-[700px]'>
                     <h1 className='text-4xl font-black py-2 md:text-5xl'>Services</h1>
-                    <p className='w-[300px]  text-md font-black md:text-lg md:w-full'>Your trusted software partner equipped with IoT, hardware and firmware design expertise. </p>
+                    <p className='w-[300px]  text-md font-black md:text-lg md:w-full'>We are your trusted software partner providing smooth and flexible IT services for businesses.</p>
                 </div>                
             </div>
             <div className='flex flex-col-reverse items-center md:flex-row my-12'>
                 <div className='px-12 py-4 text-center md:w-[60%]'>
                     <h1 className='font-black text-[1.3rem] sm:text-[2rem] md:text-[2.2rem]'>Web & Mobile Development</h1>
-                    <p className='py-2 text-sm sm:text-lg'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
-We (dive) into your business challenges to develop and deliver game-changing solutions for your growth.
+                    <p className='py-2 text-sm sm:text-lg'> We deliver web solutions from simple websites to engaging applications. We build regular web apps, as well as SPA and PWA. We also create high-quality mobile apps that bring profit for your business. From idea validation to successful launch, we focus on the fastest route to market – respecting your time and pushing your web and mobile app to success.
+Scale your web/mobile app development with experienced full-stack developers and product experts.
 </p>
                 </div>
                 <div className='md:w-[40%]'>
@@ -33,8 +33,7 @@ We (dive) into your business challenges to develop and deliver game-changing sol
                 </div>
                 <div className='px-12 py-4 text-center md:w-[60%]'>
                     <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Cloud Services</h1>
-                    <p className='py-2 text-sm sm:text-lg'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
-We (dive) into your business challenges to develop and deliver game-changing solutions for your growth.
+                    <p className='py-2 text-sm sm:text-lg'> Plan your migration and move your servers to the cloud. Amazon AWS, Microsoft Azure, Google Cloud Platform, Heroku — we have mastered migrations to all major cloud providers. By incorporating cloud applications, we accelerate business transformation and get the most out of high-performance cloud environments. Our team of highly skilled and accomplished professionals enables secured infrastructure investments and simplifies the transition to SaaS, PaaS, and IaaS business models. 
 </p>
                 </div>                
             </div>
@@ -42,9 +41,7 @@ We (dive) into your business challenges to develop and deliver game-changing sol
             <div className='flex flex-col-reverse items-center md:flex-row my-12'>
                 <div className='px-12 py-4 text-center md:w-[60%]'>
                     <h1 className='font-black sm:text-[2rem] md:text-[2.2rem]'>Tech & Agile Consulting</h1>
-                    <p className='py-2 text-sm sm:text-lg'> We work as a united team of professionals doing our best for our clients' success.Focused on time, productivity, and scalability, our developer team designs, prototypes, and builds your IoT, hardware, and custom software. We have proven expertise in Smart Home, embedded devices, manufacturing, logistic, insurance and fintech industries. Reach out to learn how we transform a challenge into a competitive advantage — in weeks, not years.
-We (dive) into your business challenges to develop and deliver game-changing solutions for your growth.
-</p>
+                    <p className='py-2 text-sm sm:text-lg'> Our team of experts provide flexible and fast analysis and development helping organizations boom in their businesses. We provide expert guidance on technology architecture, strategic planning, QA, design and delivery. Quality assurance, automated tests, test-driven development, and peer code review are essential parts of the digital product development process. We understand how important a good process is and thus we deliver the full lifecycle of a successful software release. </p>
                 </div>
                 <div className='md:w-[40%]'>
                     <img className="w-[125px] mx-auto my-2 sm:w-[180px] md:w-[200px]" src={ITStuffSVG} alt="/" />
