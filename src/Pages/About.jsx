@@ -14,7 +14,7 @@ const About = () => {
             <div className='aboutClass w-full h-[500px]'> 
                 <div className='px-12 py-[245px] flex flex-col flex-wrap justify-center text-gray-300 md:w-[700px]'>
                     <h1 className='text-4xl font-black py-2 md:text-5xl'>About Us</h1>
-                    <p className='w-[300px]  text-md font-black md:text-lg md:w-full'>Your trusted software partner equipped with IoT, hardware and firmware design expertise. </p>
+                    <p className='w-[300px]  text-md font-black md:text-lg md:w-full'>Your trusted software partner with a passion for building beautiful & functional products.</p>
                 </div>                
             </div>
             <div className='flex flex-col-reverse items-center md:flex-row my-12 text-sm sm:text-lg'>

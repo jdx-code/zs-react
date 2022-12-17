@@ -13,7 +13,11 @@ const Navbar = () =>{
     return(
         <div>
             <div id="navbar" className="flex justify-between items-center h-24 w-full mx-auto px-4 text-white">
-                <h1 className="w-full text-green-100 text-2xl font-bold uppercase m-4">ZEPHYR SOLUTIONS</h1>
+                <h1 className="w-full text-green-100 text-2xl font-bold uppercase m-4">
+                    <NavLink to="/">
+                        ZEPHYR SOLUTIONS
+                    </NavLink>                    
+                </h1>
                 <ul className="hidden md:flex">
                     <li className="p-4">
                         <NavLink                         
