@@ -15,7 +15,7 @@ const Navbar = () =>{
             <div id="navbar" className="flex justify-between items-center h-24 w-full mx-auto px-4 text-white">
                 <h1 className="w-full text-green-100 text-2xl font-bold uppercase m-4">
                     <NavLink to="/">
-                        ZEPHYR
+                        ZEPHYR SOL
                     </NavLink>                    
                 </h1>
                 <ul className="hidden md:flex">
