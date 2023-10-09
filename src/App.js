@@ -8,6 +8,7 @@ import About from "./Pages/About";
 import Services from "./Pages/Services";
 import Career from "./Pages/Career";
 import Contact from "./Pages/Contact";
+import Internship from "./Pages/Internship";
 
 
 initFontAwesome();
@@ -35,6 +36,7 @@ function App() {
         <Route path="services" element={<Services/>}/>
         <Route path="career" element={<Career/>}/>
         <Route path="contact" element={<Contact/>}/>
+        <Route path="internship" element={<Internship/>}/>
       </Routes>  
       
       <Footer/>     
