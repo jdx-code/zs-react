@@ -5,7 +5,7 @@ import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
 const Navbar = () =>{
 
     const [nav, setNav] = useState(false);
-
+    
     const handleNav = () => {
         setNav(!nav)
     }
@@ -64,6 +64,7 @@ const Navbar = () =>{
                         <li className="p-4 border-b border-gray-600">
                             <NavLink
                                 to="/"
+                                onClick={handleNav}
                             >
                                 Home
                             </NavLink>
@@ -71,6 +72,7 @@ const Navbar = () =>{
                         <li className="p-4 border-b border-gray-600">
                             <NavLink
                                 to="/about"
+                                onClick={handleNav}
                             >
                                 About
                             </NavLink>
@@ -78,6 +80,7 @@ const Navbar = () =>{
                         <li className="p-4 border-b border-gray-600">
                             <NavLink
                                 to="/services"
+                                onClick={handleNav}
                             >
                                 Services
                             </NavLink>
@@ -85,6 +88,7 @@ const Navbar = () =>{
                         <li className="p-4 border-b border-gray-600">
                             <NavLink
                                 to="/career"
+                                onClick={handleNav}
                             >
                                 Career
                             </NavLink>
@@ -92,6 +96,7 @@ const Navbar = () =>{
                         <li className="p-4">
                             <NavLink
                                 to="/contact"
+                                onClick={handleNav}
                             >
                                 Contact
                             </NavLink>
