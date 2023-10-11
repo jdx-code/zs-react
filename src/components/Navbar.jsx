@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import {AiOutlineClose, AiOutlineMenu} from 'react-icons/ai';
+import Logo from '../assets/logo.png'
 
 const Navbar = () =>{
 
@@ -15,7 +16,7 @@ const Navbar = () =>{
             <div id="navbar" className="flex justify-between items-center h-24 w-full mx-auto px-4 text-white">
                 <h1 className="w-full text-green-100 text-2xl font-bold uppercase m-4">
                     <NavLink to="/">
-                        ZEPHYR SOLUTIONS
+                        <img className="w-[180px] my-4 sm:w-[200px] md:w-[230px] items-start" src={Logo} alt="/" />
                     </NavLink>                    
                 </h1>
                 <ul className="hidden md:flex">
@@ -58,8 +59,9 @@ const Navbar = () =>{
                 <div onClick={handleNav} className="block md:hidden">
                     {nav ? <AiOutlineClose size={20}/>: <AiOutlineMenu size={20}/>}                
                 </div>
-                <div className={nav ? "fixed left-0 top-0 w-[85%] h-[96%] z-20 border-r border-r-gray-900 bg-[#1b0424] ease-in-out duration-500" : "fixed left-[-100%]"}>
-                <h1 className="w-full text-green-100 text-lg font-bold uppercase m-4">Zephyr Solutions</h1>
+                <div className={nav ? "fixed left-0 top-0 w-[85%] h-[96%] z-20 border-r border-r-gray-900 bg-[#1b0424] ease-in-out duration-500" : "fixed left-[-100%]"}>                    
+                    <img className="w-[150px] items-start" src={Logo} />
+                    
                     <ul className="uppercase p-4">
                         <li className="p-4 border-b border-gray-600">
                             <NavLink

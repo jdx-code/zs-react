@@ -1,24 +1,25 @@
 import React from 'react';
 import { NavLink } from "react-router-dom";
 import InternshipImage from '../assets/internship.svg';
+import DeveloperImage from '../assets/dev.svg';
 
 const Internship = () => {
     return(
-        <>
-            <div className='contactClass w-full p-8 grid md:grid-cols-2 justify-items-center'>                         
-                <div className='w-full max-w-[600px] flex flex-col pt-20'>                
-                    <h1 className='text-4xl font-black md:text-5xl tracking-wide'>Boost your career with our Internship & Professional Training Programs</h1>
-                    <p className='w-[300px] text-md font-black md:text-lg md:w-full py-8'>Through our training, participants can expect to gain valuable skills, experience personal growth, and achieve a deeper understanding of their chosen field, all while having the flexibility to pursue their learning journey individually or as part of a team.</p>
-                    <button className="w-[115px] bg-[#2c0f37] text-gray-100 font-black border-[1px] border-[white] text-sm px-2 py-2 rounded-md sm:w-[145px] md:w-[160px] sm:text-lg md:text-xl hover:bg-[#3e134b] hover:text-blue-100 hover:transition duration-150">
-                        <NavLink to="/about">Apply for free</NavLink>
+        <>     
+            <div className='flex flex-col-reverse items-center md:flex-row my-20 text-sm sm:text-lg'>
+                <div className='px-12 py-4 text-center md:w-[50%] lg:w-[60%]'>
+                    <h1 className='m-4 text-[1.3rem] sm:text-[2rem] md:text-[2.4rem] font-black leading-9'>Boost your career with our Internship & Professional Training Programs</h1>
+                    <p className='py-2'>Through our training, participants can expect to gain valuable skills, experience personal growth, and achieve a deeper understanding of their chosen field, all while having the flexibility to pursue their learning journey individually or as part of a team.</p>
+                    <button className="m-4 w-[115px] bg-[#2c0f37] text-gray-100 font-black border-[1px] border-[white] text-sm px-2 py-2 rounded-md sm:w-[145px] md:w-[160px] sm:text-lg md:text-xl hover:border-[#2c0f37] hover:bg-[white] hover:text-[#2c0f37] hover:transition duration-150">
+                        <a target="_blank" href="https://forms.gle/k1HSyMMChUni6R7z8">Apply for free</a>
                     </button>
-                </div>            
-                <div className='w-full max-w-[600px] mt-4 rounded-lg md:mt-2 md:p-2'>
+                </div>
+                <div className='md:w-[45%] lg:w-[35%]'>
                     <img className="w-[300px] mx-auto my-2 sm:w-[400px] md:w-[600px]" src={InternshipImage} alt="/" />
-                </div>                            
-            </div> 
+                </div>
+            </div>
 
-            <div className='grid my-12 text-sm sm:text-lg'>
+            <div className='grid my-10 text-sm sm:text-lg'>
                 <div className='text-center'>
                     <h1 className='m-2 text-[1.3rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Level-up your career from anywhere</h1>
                     <p className='px-8 py-2 md:px-[100px] lg:px-[270px]'>
@@ -65,7 +66,7 @@ const Internship = () => {
                                 1. Apply & Interview
                                 <span class="absolute inset-0"></span>
                                 </p>
-                                <p class="mt-1 text-gray-600">Apply online and shine in your personal interview to secure your spot.</p>
+                                <p class="mt-1 text-gray-800">Apply online and shine in your personal interview to secure your spot.</p>
                             </div>
                         </div>
 
@@ -79,7 +80,7 @@ const Internship = () => {
                                 2. Path Selection
                                 <span class="absolute inset-0"></span>
                                 </p>
-                                <p class="mt-1 text-gray-600">Choose your journey: group or solo projects, tailored to your goals.</p>
+                                <p class="mt-1 text-gray-800">Choose your journey: group or solo projects, tailored to your goals.</p>
                             </div>
                         </div>
 
@@ -94,7 +95,7 @@ const Internship = () => {
                                 3. Cutting-Edge Tech & Industry Projects
                                 <span class="absolute inset-0"></span>
                                 </p>
-                                <p class="mt-1 text-gray-600">Dive into high-demand technologies while working on real-world industrial projects.</p>
+                                <p class="mt-1 text-gray-800">Dive into high-demand technologies while working on real-world industrial projects.</p>
                             </div>
                         </div>
 
@@ -109,7 +110,7 @@ const Internship = () => {
                                 4. Holistic Growth, Including Client Handling Skills
                                 <span class="absolute inset-0"></span>
                                 </p>
-                                <p class="mt-1 text-gray-600">Develop coding skills, refine soft skills, and enhance client handling abilities essential for professional success.</p>
+                                <p class="mt-1 text-gray-800">Develop coding skills, refine soft skills, and enhance client handling abilities essential for professional success.</p>
                             </div>
                         </div>
 
@@ -122,7 +123,7 @@ const Internship = () => {
                                 5. Obtain your certification and unlock a world of opportunities. 
                                 <span class="absolute inset-0"></span>
                                 </p>
-                                <p class="mt-1 text-gray-600">With your certification, endless possibilities emerge. Take the next step towards success.</p>
+                                <p class="mt-1 text-gray-800">With your certification, endless possibilities emerge. Take the next step towards success.</p>
                             </div>
                         </div>
 
@@ -131,6 +132,21 @@ const Internship = () => {
 
 
             </div>  
+
+
+            <div className='flex flex-col items-center md:flex-row my-12'>            
+                <div className='md:w-[45%]'>
+                    <img className="w-[125px] mx-auto my-2 sm:w-[180px] md:w-[400px]" src={DeveloperImage} alt="/" />
+                </div>
+                <div className='px-12 py-4 text-center md:w-[55%]'>
+                    <h1 className='text-[1.8rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Grow your coding skills. Apply today.</h1>
+                    <p className='py-2 text-sm sm:text-lg'> Embark on an exciting journey with our internship program. Gain valuable experience, develop essential skills, and make meaningful connections in your chosen field. Our internship opportunities are designed to help you thrive and succeed in your career. 
+</p>
+<button className="m-4 w-[115px] bg-[#2c0f37] text-gray-100 font-black border-[1px] border-[white] text-sm px-2 py-2 rounded-md sm:w-[145px] md:w-[160px] sm:text-lg md:text-xl hover:border-[#2c0f37] hover:bg-[white] hover:text-[#2c0f37] hover:transition duration-150">
+                        <a target="_blank" href="https://forms.gle/k1HSyMMChUni6R7z8">Apply for free</a>
+                    </button>
+                </div>                
+            </div>
         </>
     )
 }
