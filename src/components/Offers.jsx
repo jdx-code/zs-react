@@ -8,7 +8,7 @@ import ITStuffSVG from '../assets/it-stuff.svg'
 
 const Offers = () => {
     return (
-        <div className="w-full bg-white text-[#2c0f37] border-2 py-12">
+        <div id="services" className="w-full bg-white text-[#2c0f37] border-2 py-12">
             <div className='flex flex-col justify-center items-center px-4 md:px-24'>
 
                 <div className="mx-auto px-2 text-center md:px-24">                

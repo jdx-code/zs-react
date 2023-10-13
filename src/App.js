@@ -9,6 +9,7 @@ import Services from "./Pages/Services";
 import Career from "./Pages/Career";
 import Contact from "./Pages/Contact";
 import Internship from "./Pages/Internship";
+import ScrollToTopButton from "./components/ScrollToTopButton";
 
 
 initFontAwesome();
@@ -39,6 +40,8 @@ function App() {
         <Route path="internship" element={<Internship/>}/>
       </Routes>  
       
+      <ScrollToTopButton />
+
       <Footer/>     
     </div>
   );

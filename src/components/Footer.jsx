@@ -14,45 +14,45 @@ const Footer = () => {
                         <div className='col-span-3 sm:col-span-2'>
                             <ul>                            
                                 <li className='pb-2'>
-                                    <a href="#">Web Development</a>
+                                    <a href="/#services">Web Development</a>
                                 </li>
                                 <li className='pb-2'>
-                                    <a href="#">Mobile Application</a>
+                                    <a href="/#services">Mobile Application</a>
                                 </li>
                                 <li className='pb-2'>
-                                    <a href="#">Product Engineering</a>
+                                    <a href="/#services">Product Engineering</a>
                                 </li>
                                 <li className='pb-2'>
-                                    <a href="#">Internships & Training</a>
+                                    <a href="/internship">Internships & Training</a>
                                 </li>
                             </ul>
                         </div>  
                         <div className='col-span-3 sm:col-span-2'>
                             <ul>     
                                 <li className='pb-2'>
-                                    <a href="#">UI/UX Design</a>
+                                    <a href="/#services">UI/UX Design</a>
                                 </li>                       
                                 <li className='pb-2'>
-                                    <a href="#">Cloud Services</a>
+                                    <a href="/#services">Cloud Services</a>
                                 </li>
                                 <li className='pb-2'>
-                                    <a href="#">IT Outsourcing</a>
+                                    <a href="/#services">IT Outsourcing</a>
                                 </li>
                                 <li className='pb-2'>
-                                    <a href="#">Agile Consulting</a>
+                                    <a href="/#services">Agile Consulting</a>
                                 </li>                                
                             </ul>
                         </div> 
                         <div className='col-span-6 sm:col-span-2'>
                             <ul>
                                 <li className='pb-2'>
-                                    <a href="#">SEO & Digital Marketing</a>
+                                    <a href="/about">SEO & Digital Marketing</a>
                                 </li> 
                                 <li className='pb-2'>
-                                    <a href="#">IT Products & Services</a>
+                                    <a href="/about">IT Products & Services</a>
                                 </li>                            
                                 <li className='pb-2'>
-                                    <a href="#">Maintenance & Support</a>
+                                    <a href="/about">Maintenance & Support</a>
                                 </li>
                             </ul>
                         </div>             
@@ -71,7 +71,7 @@ const Footer = () => {
                     <div className='col-span-1 grid justify-items-end items-center'>
                         <ul>
                             <li className='pb-4'>
-                                <a href="https://twitter.com/jdx_code"><FontAwesomeIcon icon={['fab', 'twitter']} size="lg"/></a>
+                                <a href="https://twitter.com/zephyrsolx"><FontAwesomeIcon icon={['fab', 'twitter']} size="lg"/></a>
                             </li>
                             <li className='pb-4'>
                                 <a href="https://www.linkedin.com/in/zephyrsolutionsgroup/"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg"/></a>
