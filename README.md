@@ -1,1 +1,1 @@
-This project has been deployed on Netlify. Click [here](https://zephyrsolutions.netlify.app/) to view live.
+View live project here - [zephyrsolutionsgroup.com](https://zephyrsolutionsgroup.com/)
