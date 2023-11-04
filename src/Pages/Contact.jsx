@@ -23,7 +23,7 @@ const Contact = () => {
                 </div>
                 <div className='w-full px-6 lg:px-12 py-4 text-xs md:text-sm lg:text-lg text-white'>
                     <p className='leading-8'>Tell us your requirements</p>
-                    <p className='font-semibold leading-6'>Mail us <span className='underline italic'>info@zephyrsolutionsgroup.com</span></p>
+                    <p className='font-semibold leading-6'>Mail us <span className='underline italic'>mail@zephyrsolutionsgroup.com</span></p>
                     <p className='font-semibold'>Or call +91-7578094093</p>
                 </div>                  
             </div>

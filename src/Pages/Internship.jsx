@@ -11,7 +11,7 @@ const Internship = () => {
                     <h1 className='m-4 text-[1.3rem] sm:text-[2rem] md:text-[2.4rem] font-black leading-9'>Boost your career with our Internship & Professional Training Programs</h1>
                     <p className='py-2'>Through our training, participants can expect to gain valuable skills, experience personal growth, and achieve a deeper understanding of their chosen field, all while having the flexibility to pursue their learning journey individually or as part of a team.</p>
                     <button className="m-4 w-[115px] bg-[#2c0f37] text-gray-100 font-black border-[1px] border-[white] text-sm px-2 py-2 rounded-md sm:w-[145px] md:w-[160px] sm:text-lg md:text-xl hover:border-[#2c0f37] hover:bg-[white] hover:text-[#2c0f37] hover:transition duration-150">
-                        <a target="_blank" href="https://forms.gle/cUieKUCQBBcWuXyT6">Apply for free</a>
+                        <a target="_blank" href="https://forms.gle/9Hcbh2T7bqnPvBd86">Apply for free</a>
                     </button>
                 </div>
                 <div className='md:w-[45%] lg:w-[35%]'>
@@ -143,7 +143,7 @@ const Internship = () => {
                     <p className='py-2 text-sm sm:text-lg'> Embark on an exciting journey with our internship program. Gain valuable experience, develop essential skills, and make meaningful connections in your chosen field. Our internship opportunities are designed to help you thrive and succeed in your career. 
 </p>
 <button className="m-4 w-[115px] bg-[#2c0f37] text-gray-100 font-black border-[1px] border-[white] text-sm px-2 py-2 rounded-md sm:w-[145px] md:w-[160px] sm:text-lg md:text-xl hover:border-[#2c0f37] hover:bg-[white] hover:text-[#2c0f37] hover:transition duration-150">
-                        <a target="_blank" href="https://forms.gle/cUieKUCQBBcWuXyT6">Apply for free</a>
+                        <a target="_blank" href="https://forms.gle/9Hcbh2T7bqnPvBd86">Apply for free</a>
                     </button>
                 </div>                
             </div>

@@ -66,7 +66,7 @@ const Footer = () => {
                         <p className='pb-1'>Guwahati-781028</p>
                         <p className='pb-1'>Assam, India</p>
                         <p className='pb-1'>+91-7578094093</p>
-                        <p className='pb-1'>info@zephyrsolutionsgroup.com</p>                    
+                        <p className='pb-1'>mail@zephyrsolutionsgroup.com</p>                    
                     </div>
                     <div className='col-span-1 grid justify-items-end items-center'>
                         <ul>
