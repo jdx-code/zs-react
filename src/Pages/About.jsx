@@ -19,8 +19,8 @@ const About = () => {
             </div>
             <div className='flex flex-col-reverse items-center md:flex-row my-12 text-sm sm:text-lg'>
                 <div className='px-12 py-4 text-center md:w-[50%] lg:w-[60%]'>
-                    <h1 className='m-2 text-[1.3rem] sm:text-[2rem] md:text-[2.2rem] font-black leading-9'>A li'l about us and our work culture</h1>
-                    <p className='py-2'> Zephyr Solutions is a trusted IN-based software development and IT consulting firm, offering dedicated services for all your business needs. Since 2018 we’ve been working with different industries and sectors providing the best products and services for their businesses. Our in-house team of talented professionals develops cutting-edge solutions for your business. We are focused on building a long-term relationship with our clients and offer a full range of services: from project discovery, software development, and design to product launch and support.  
+                    <h1 className='m-2 text-[1.3rem] sm:text-[1.75rem] md:text-[1.95rem] font-black leading-9'>About us and our remote work culture:</h1>
+                    <p className='py-2'> Zephyr Solutions is a trusted remote software development and IT consulting firm, offering dedicated services for all your business needs. With a wealth of experience, we've been seamlessly collaborating with clients, transcending geographical boundaries to deliver top-notch products and services. Our distributed team of talented professionals works remotely to develop cutting-edge solutions for your business. We pride ourselves on fostering a dynamic remote work culture that allows our team to thrive and deliver excellence from various locations. We are committed to building long-term relationships with our clients and offer a full range of services: from project discovery, software development, and design to product launch and support.  
 </p>
                 </div>
                 <div className='md:w-[45%] lg:w-[35%]'>
@@ -29,7 +29,7 @@ const About = () => {
             </div>
             <div className='grid my-12 text-sm sm:text-lg'>
                 <div className='text-center'>
-                    <h1 className='m-2 text-[1.3rem] font-black sm:text-[2rem] md:text-[2.2rem]'>Our mission and values</h1>
+                    <h1 className='m-2 text-[1.3rem] font-black sm:text-[1.75rem] md:text-[1.95rem]'>Our mission and values</h1>
                     <p className='px-8 py-2 md:px-[100px] lg:px-[270px]'>Our community comprises of Software, UI-UX & Product experts with a passion for building and delivering client-centric solutions</p>
                 </div>
                 <div className='grid md:grid-cols-6 md:justify-items-center py-12'>

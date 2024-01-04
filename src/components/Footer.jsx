@@ -61,11 +61,11 @@ const Footer = () => {
                 
                 <div className='grid grid-cols-4 col-span-2 text-xs font-bold mb-8'>                    
                     <div className='col-span-3'>
-                        <p className='font-bold text-lg pb-3 underline'>Reach Us</p>
-                        <p className='pb-1'>Beltola Tiniali</p>
-                        <p className='pb-1'>Guwahati-781028</p>
-                        <p className='pb-1'>Assam, India</p>
-                        <p className='pb-1'>+91-7578094093</p>
+                        <p className='font-bold text-lg pb-3 underline'>Reach us</p>
+                        {/* <p className='pb-1'>Beltola, Guwahati-781028 </p> */}
+                        {/* <p className='pb-1'>Guwahati-781028</p> */}
+                        {/* <p className='pb-1'>Assam, India</p> */}
+                        
                         <p className='pb-1'>mail@zephyrsolutionsgroup.com</p>                    
                     </div>
                     <div className='col-span-1 grid justify-items-end items-center'>
@@ -74,7 +74,7 @@ const Footer = () => {
                                 <a href="https://twitter.com/zephyrsolx"><FontAwesomeIcon icon={['fab', 'twitter']} size="lg"/></a>
                             </li>
                             <li className='pb-4'>
-                                <a href="https://www.linkedin.com/in/zephyrsolutionsgroup/"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg"/></a>
+                                <a href="https://www.linkedin.com/company/zephyrsolx/"><FontAwesomeIcon icon={['fab', 'linkedin']} size="lg"/></a>
                             </li>
                             <li className='pb-4'>
                                 <a href="https://www.facebook.com/zephyrsolutionsgroup"><FontAwesomeIcon icon={['fab', 'facebook']} size="lg"/></a>
